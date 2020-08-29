@@ -1,0 +1,1 @@
+This main menu message appears when you click <code>Back</code> button.

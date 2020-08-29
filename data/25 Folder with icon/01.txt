@@ -1,0 +1,1 @@
+Text with <b>different</b>, <i>different</i>, <code>different</code>, <u>different</u>, <s>different</s> markdown/html styles and <a href="https://google.com">hyperlinks</a>.
