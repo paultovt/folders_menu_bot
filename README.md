@@ -1,6 +1,6 @@
 # Telegram bot with menu created from folders.
 
-This bot allows you to organize texts in inline menues and submenues by just creating folders and subfolders. Perfect for FAQ bot or as a informational part of multifunctional bot.
+This bot allows you to organize texts in inline menues and submenues by just creating folders and subfolders in `data` directory. Perfect for FAQ bot or as a informational part of multifunctional bot.
 
 You can see the working example of this bot [here](https://t.me/folders_menu_bot).
 
