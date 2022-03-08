@@ -75,7 +75,8 @@ def dir(call):
     if folder_id > 1:
         for each in [ " ".join(i.split(" ")[1:]) for i in sql_query[0][1:].split("/") ]:
             prefix += " ▫ " + each + "\n"
-        
+            
+    bot.answer_callback_query(call.id)
     bot.edit_message_text(prefix + "\n" + txt, chat_id, call.message.message_id, reply_markup = markup, disable_web_page_preview = disablePicturePreview, parse_mode = "html")
     
     log = open(logfile, 'a')
